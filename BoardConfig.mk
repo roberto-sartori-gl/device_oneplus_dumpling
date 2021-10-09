@@ -39,3 +39,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
 -include vendor/oneplus/dumpling/BoardConfigVendor.mk
+
+# Inherit from the rs vendor directory
+-include vendor/rs/config/BoardConfigAOSP.mk
