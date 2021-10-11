@@ -38,3 +38,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit from the rs vendor directory
 -include vendor/rs/config/BoardConfigAOSP.mk
+
+TARGET_SYSTEM_PROP += \
+    $(DEVICE_PATH)/system.prop
