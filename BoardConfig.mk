@@ -42,3 +42,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the rs vendor directory
 -include vendor/rs/config/BoardConfigAOSP.mk
+
+TARGET_SYSTEM_PROP += \
+    $(DEVICE_PATH)/system.prop
